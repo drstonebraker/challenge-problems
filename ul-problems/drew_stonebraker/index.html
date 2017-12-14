@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/font/octicons.css">
+  </head>
+  <body class="p-2">
+    <section class='card border-0 rounded-0'>
+      <div class="card-body">
+        <h3 class="card-title light-grey font-weight-light">CALCULATOR</h3>
+
+        <div class='row d-flex align-items-end justify-content-between'>
+
+          <div class="col my-3 col-xl-2 col-12 col-md-4 col-sm-6">
+            <label class="text-muted" for='depart'>Depart</label>
+            <div class="input-group">
+              <input id='depart' type="text" class="form-control text-lightpurple font-weight-light" aria-label="Text input with dropdown button" value="04/22/2018">
+              <div class="input-group-btn">
+                <button type="button" class="btn btn-light dropdown-toggle border border-secondary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="octicon octicon-calendar"></span>
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div role="separator" class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col my-3 col-xl-2 col-12 col-md-4 col-sm-6">
+            <label  class="text-muted" for='depart'>Return</label>
+            <div class="input-group">
+              <input id='depart' type="text" class="form-control text-lightpurple font-weight-light" aria-label="Text input with dropdown button" value="04/28/2018">
+              <div class="input-group-btn">
+                <button type="button" class="btn btn-light dropdown-toggle border border-secondary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="octicon octicon-calendar"></span>
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div role="separator" class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col my-3 col-xl-1 col-12 col-md-2 col-sm-4">
+            <label  class="text-muted" for='depart'>Origin</label>
+            <div class="input-group">
+              <input id='depart' type="text" class="airport form-control text-center font-weight-normal text-purple" aria-label="Text input with dropdown button" value="SFO">
+            </div>
+          </div>
+
+          <div class="col my-3 col-xl-1 col-12 col-md-2 col-sm-4">
+            <label  class="text-muted" for='depart'>Destination</label>
+            <div class="input-group">
+              <input id='depart' type="text" class="airport text-center font-weight-normal form-control text-purple" aria-label="Text input with dropdown button" value="CUN">
+            </div>
+          </div>
+
+          <div class="col my-3 col-xl-1 col-12 col-md-3 col-sm-12">
+            <label  class="text-muted" for='depart'>Trip Price</label>
+            <div class="input-group">
+              <input id='depart' type="text" class="form-control text-center" value="$3,290.21">
+            </div>
+          </div>
+
+          <div class="col my-3 col-xl-1 col-12 col-md-3 col-sm-12 text-center">
+            <button type="button" class="btn btn-primary">GET QUOTE</button>
+          </div>
+
+          <div class="col my-3 col-xl-2 pl-5 mx-auto col-12 col-md-3 col-sm-12">
+            <div class="price card bg-light text-nowrap flex-row align-items-start pl-2 py-2 w-100">
+              <span class='price__from text-muted font-weight-light mr-2'>
+                from*
+              </span>
+              <span class="price__dollar font-weight-bold">$</span>
+              <span class="">
+                <div class='price__price font-weight-bold'>
+                  298
+                </div>
+                <div class='price__per-month text-muted font-weight-light'>
+                  per month
+                </div>
+              </span>
+            </div>
+          </div>
+
+          <div class="col my-3 col-xl-2 col-12 col-md-3 col-sm-12">
+            <button type="button" class="btn w-100 bg-purple">CREATE OFFER</button>
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </section>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+body {
+  background-color: #EFEEEE;
+}
+
+button {
+  cursor: pointer;
+}
+
+.light-grey {
+  color: #C7BAB8;
+}
+
+/* .price {
+  margin-right: 20px;
+} */
+
+.price__dollar {
+  color: #009ADF;
+  font-size: 23px;
+  margin-top: -5px;
+}
+
+.price__price {
+  font-size: 40px;
+  line-height: 40px;
+  color: #009ADF;
+}
+
+.price__per-month {
+  margin-top: -7px;
+}
+
+.text-lightpurple {
+  color: #8753C1;
+}
+
+.text-purple {
+  color: #4226A1;
+}
+
+.bg-purple {
+  color: white;
+  background-color: #4226A1;
+}
+
+.airport {
+  font-size: 21px;
+  line-height: 21px;
+}
