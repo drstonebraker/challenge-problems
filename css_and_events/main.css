@@ -1,0 +1,46 @@
+body {
+}
+
+.page {
+  padding: 3px;
+  display: flex;
+  align-items: stretch;
+  height: 100vh;
+  width: 100vw;
+}
+
+.section__content {
+  padding: 15px;
+}
+
+.section__heading {
+  font-family: serif;
+}
+
+.section__paragraph {
+  font-family: sans-serif;
+}
+
+.section {
+  border: 1px solid #555;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section:first-child {
+  margin-right: 15px;
+}
+
+.button_container {
+  background-color: black;
+  padding: 15px;
+}
+
+.button {
+  color: white;
+  background-color: black;
+  border: 1px solid #555;
+  width: 100%;
+  padding: 15px;
+}
